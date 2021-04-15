@@ -1,0 +1,9 @@
+with open ("chislo1", 'r') as f:
+(один таб)f1=f.read()
+f2=" "
+with open ("chislo3", 'r') as f:
+(один таб)f2+=f.read()
+with open ("chislo3", 'r') as f:
+(таб)f.write(f1)
+(таб)f.write(f2)
+exec(open ('chislo3').read())
